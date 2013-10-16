@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>glob proto page</title>
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/application.css" rel="stylesheet" type="text/css">
+    <link href="css/blocks.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body id="blocks-proto">
+    <h1>blip rot: glob programming language</h1>
+    <section id="introduction">
+      <p><img src="img/robot.png" alt="robot" class="robot" />
+      Hi there! This is a very early prototype for puzzles in the game <span class="title">blip_rot</span>.</p>
+      <p><span class="title">blip_rot</span> is a game of adventure, set in the world of Arc. Something has gone terribly wrong in Arc, tearing apart the world itself. You embark on a quest to find out what happened and ultimately, fix the world. Throughout the journey, you'll be accompanied by a little flying robot, seen at the right. The robot will help you through the various challenges by providing information and history. Your companion won't be fully functional for this prototype, but will try to give you some hints.</p>
+      <p>Your feedback will help determine how the puzzles appear in the game. At the end of the puzzles, I have a link to a survey, and I would really appreciate it if you filled it out. Thanks and have fun!  &mdash; <a href="https://twitter.com/mathiasx">@mathiasx</a></p>
+
+      <p><a href="#begin" id="begin">Ok, bring on the puzzles!</a></p>
+    </section>
+
+    <div class="screen-height"></div>
+
+    <section class="puzzle" id="puzzle-1">
+      <header>
+        <img src="img/robot.png" alt="robot" class="robot" />
+        <h2>Puzzle 1</h2>
+      </p>
+      <p> This is the workbench. You will work on puzzles inside it.</p>
+      </header>
+      <div class="workbench">
+        <button id="puzzle-1-btn">Execute</button>
+        <div class="block fn">
+          <span>+</span>
+          <input name="arg1" type="text" placeholder="number">
+          <input name="arg2" type="text" placeholder="number">
+        </div>
+
+        <p>Expected Output:</p>
+
+        <div class="block data">
+          <span class="data">4</span>
+        </div>
+      </div>
+      <p>We're starting with some basic math. Solve the problem above so that we get the expected output. Click 'Execute' when you are ready to run the code on the workbench.</p>
+    </section>
+
+    <div class="screen-height"></div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+    <script src="js/application.js" type="text/javascript"></script>
+  </body>
+</html>

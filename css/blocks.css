@@ -1,0 +1,71 @@
+body#blocks-proto {
+  padding: 10px;
+}
+
+div.block {
+  font-family: Helvetica, sans-serif;
+  background-color: #9A9A9A;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+}
+
+div.block.builtin {
+  background-color: #AE203E;
+}
+
+div.block.fn {
+  background-color: #506E66;
+}
+
+div.block.data {
+  background-color: #3A9AAE;
+}
+
+div.block input[type="text"] {
+  display: inline-block;
+  width: 90px;
+  margin-left: 10px;
+}
+
+div.block span {
+  display: inline-block;
+  color: #FFF;
+}
+
+div.block span.data {
+  min-width: 50px;
+  padding: 0 10px;
+  text-align: center;
+}
+
+div.block.fn span:before, div.block.builtin span:before {
+  padding: 0 10px;
+  display: inline-block;
+  content: "\03BB";
+  color: #ED8D28;
+}
+
+div.workbench {
+  margin: 0 20px;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+div.workbench p {
+  padding: 0;
+}
+div.workbench button {
+  float: right;
+  font-family: Helvetica, sans-serif;
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+  background: #01B0F0;
+  text-decoration: none;
+  line-height: 1;
+  border: 0px;
+  border-radius: 5px;
+}
