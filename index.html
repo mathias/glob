@@ -9,11 +9,12 @@
   </head>
 
   <body id="blocks-proto">
-    <h1>blip rot: glob programming language</h1>
+    <h1>blip rot prototype puzzle page</h1>
     <section id="introduction">
       <p><img src="img/robot.png" alt="robot" class="robot" />
       Hi there! This is a very early prototype for puzzles in the game <span class="title">blip_rot</span>.</p>
-      <p><span class="title">blip_rot</span> is a game of adventure, set in the world of Arc. Something has gone terribly wrong in Arc, tearing apart the world itself. You embark on a quest to find out what happened and ultimately, fix the world. Throughout the journey, you'll be accompanied by a little flying robot, seen at the right. The robot will help you through the various challenges by providing information and history. Your companion won't be fully functional for this prototype, but will try to give you some hints.</p>
+      <p><span class="title">blip_rot</span> is a game of adventure, set in the world of Arc. Something has gone terribly wrong in Arc, tearing apart the world itself. You embark on a quest to find out what happened and ultimately, fix the world. Throughout the journey, you'll be accompanied by a little flying robot, seen at the right. The robot will help you through the various challenges by providing information and history. Your companion won't be fully functional for *this* prototype, but will try to give you some hints.</p>
+      <p>The main type of puzzles I'm working on use a visual programming language to solve simple coding problems. I've named this programming language <span class="title">glob</span>. You'll be able to do lots with <span class="title">glob</span>'s blocks in the game, but mostly you will use it to solve puzzles.</p>
       <p>Your feedback will help determine how the puzzles appear in the game. At the end of the puzzles, I have a link to a survey, and I would really appreciate it if you filled it out. Thanks and have fun!  &mdash; <a href="https://twitter.com/mathiasx">@mathiasx</a></p>
 
       <p><a href="#begin" id="begin">Ok, bring on the puzzles!</a></p>
@@ -27,13 +28,18 @@
         <h2>Puzzle 1</h2>
       </p>
       <p> This is the workbench. You will work on puzzles inside it.</p>
+      <p>We're starting with some basic math. Solve the problem above so that we get the expected output. The code in the workbench executes as you make changes.</p>
       </header>
       <div class="workbench">
-        <button id="puzzle-1-btn">Execute</button>
-        <div class="block fn">
+        <div class="block fn" id="puzzle-1-fn">
           <span>+</span>
           <input name="arg1" type="text" placeholder="number">
           <input name="arg2" type="text" placeholder="number">
+        </div>
+        <span class="output-arrow" id="output-arrow-1" style="display:none;">=&gt;</span>
+        <div class="block output data" id="output-1" style="display:none;">
+          <span class="data">
+          </span>
         </div>
 
         <p>Expected Output:</p>
@@ -42,9 +48,15 @@
           <span class="data">4</span>
         </div>
       </div>
-      <p>We're starting with some basic math. Solve the problem above so that we get the expected output. Click 'Execute' when you are ready to run the code on the workbench.</p>
     </section>
+    <div class="correct-answer" id="puzzle-1-correct" style="display:none;">
+      Correct! Continue to the
+      <a href="#" id="puzzle-2-link">next puzzle!</a>
+    </div>
+    <div class="screen-height"></div>
 
+    <section class="puzzle" id="puzzle-2">
+    </section>
     <div class="screen-height"></div>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

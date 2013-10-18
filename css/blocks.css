@@ -23,6 +23,11 @@ div.block.data {
   background-color: #3A9AAE;
 }
 
+div.block.output {
+  background: rgba(0,0,0,0);
+  border: 1px solid #3A9AAE;k
+}
+
 div.block input[type="text"] {
   display: inline-block;
   width: 90px;
@@ -45,6 +50,11 @@ div.block.fn span:before, div.block.builtin span:before {
   display: inline-block;
   content: "\03BB";
   color: #ED8D28;
+}
+
+span.output-arrow, div.block.output span.data {
+  text-align: center;
+  color: #3A9AAE;
 }
 
 div.workbench {

@@ -104,6 +104,18 @@ section.puzzle p {
   padding: 0 20px;
 }
 
+div.correct-answer {
+  background: #666;
+  color: #FFF;
+
+  max-width: 920px;
+
+  margin: 20px auto;
+  padding: 20px;
+  border: 0px;
+  border-radius: 4px;
+}
+
 a {
   color: #01B0F0;
   font-family: Helvetica, sans-serif;
