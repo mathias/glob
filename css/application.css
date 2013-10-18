@@ -105,7 +105,7 @@ section.puzzle p {
 }
 
 div.correct-answer {
-  background: #666;
+  background: #999;
   color: #FFF;
 
   max-width: 920px;
